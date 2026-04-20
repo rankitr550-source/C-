@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main() {
+    int a;
+    cout<<"Enter a:";
+    cin>>a;
+    for(int i=1; i<=10; i++) {
+        if(i==4) {
+            break;
+        }
+        cout<<i*a<<endl;
+    }
+    return 0;
+}
